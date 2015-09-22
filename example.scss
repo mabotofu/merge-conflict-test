@@ -1,0 +1,183 @@
+.test {
+  &.test-test {
+    .container {
+      .wrapper {
+        padding-top: 45px;
+        padding-right: 315px;
+        .content {
+          &:before {
+            content: '';
+            display: block;
+            height: 209px;
+            left: 434px;
+            position: absolute;
+            top: 71px;
+            width: 451px;
+          }
+          h1 {
+            margin-bottom: 11px;
+          }
+          h2 {
+            background: $blue2;
+            border-radius: 10px 10px 0 0;
+            color: $white;
+            font-family: $myriadBold;
+            font-size: 16px;
+            font-weight: 700;
+            height: 46px;
+            line-height: 2.9;
+            margin: 25px 0 0;
+            text-align: center;
+          }
+          h3 {
+            font-family: $myriadBold;
+            font-size: 20px;
+            font-weight: 100;
+            margin-bottom: 5px;
+          }
+          p {
+            font-family: $myriadBold;
+            font-weight: 100;
+            line-height: 1.4;
+            margin: 0;
+          }
+          .test2 {
+            background: #ffffff; /* Old browsers */
+            background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 64%, #cad2d8 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffffff), color-stop(64%, #ffffff), color-stop(100%, #cad2d8)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 64%, #cad2d8 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(left, #ffffff 0%, #ffffff 64%, #cad2d8 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(left, #ffffff 0%, #ffffff 64%, #cad2d8 100%); /* IE10+ */
+            background: linear-gradient(to right, #ffffff 0%, #ffffff 64%, #cad2d8 100%); /* W3C */
+            border-radius: 0 0 10px 10px;
+            height: 287px;
+            padding: 27px 0 16px 48px;
+            position: relative;
+            p {
+              font-family: $myriad;
+              line-height: 1.3;
+              strong {
+                font-family: $myriadBold;
+                font-weight: 100;
+              }
+            }
+            a {
+              background: #dd5a08; /* Old browsers */
+              background: -moz-linear-gradient(left, #dd5a08 51%, #e27e00 100%); /* FF3.6+ */
+              background: -webkit-gradient(linear, left top, right top, color-stop(51%, #dd5a08), color-stop(100%, #e27e00)); /* Chrome,Safari4+ */
+              background: -webkit-linear-gradient(left, #dd5a08 51%, #e27e00 100%); /* Chrome10+,Safari5.1+ */
+              background: -o-linear-gradient(left, #dd5a08 51%, #e27e00 100%); /* Opera 11.10+ */
+              background: -ms-linear-gradient(left, #dd5a08 51%, #e27e00 100%); /* IE10+ */
+              background: linear-gradient(to right, #dd5a08 51%, #e27e00 100%); /* W3C */
+              -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+              -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+              border: 0;
+              border-radius: 7px;
+              color: $white;
+              cursor: pointer;
+              display: inline-block;
+              font-family: $myriadB;
+              font-weight: 100;
+              height: 40px;
+              line-height: 2.9;
+              margin-top: 0;
+              margin-bottom: 11px;
+              padding-left: 50px;
+              position: relative;
+              text-decoration: none;
+              width: 105px;
+              &:before {
+                content: '';
+                display: block;
+                height: 17px;
+                left: 12px;
+                position: absolute;
+                top: 12px;
+                width: 17px;
+              }
+              &:hover {
+                background: $grey2;
+              }
+            }
+            .terms {
+              background: 0;
+              border: 0;
+              bottom: 21px;
+              color: $blue2;
+              display: block;
+              left: 44px;
+              outline: none;
+              padding: 0 0 0 23px;
+              position: absolute;
+              &:before {
+                content: '';
+                display: block;
+                height: 18px;
+                left: 0;
+                margin-top: -10px;
+                position: absolute;
+                top: 50%;
+                width: 17px;
+              }
+              &:hover {
+                color: $orange1;
+                &:before {
+                  background-position: -50px -175px;
+                }
+              }
+            }
+            .test3 {
+              .test3-content {
+                float: left;
+                padding-top: 7px;
+                &.graph-left {
+                  border-right: 2px solid $orange1;
+                  margin-bottom: 61px;
+                  padding-right: 19px;
+                  padding-left: 151px;
+                  positoin: relative;
+                  width: 215px;
+                  &:before {
+                    content: '';
+                    display: block;
+                    height: 110px;
+                    left: 67px;
+                    position: absolute;
+                    top: 21px;
+                    width: 112px;
+                  }
+                }
+                &.graph-right {
+                  padding-left: 16px;
+                  width: 195px;
+                }
+              }
+            }
+            .callout {
+              float: left;
+              p {
+                font-size: 12px;
+              }
+              &.callout1 {
+                border-right: 2px solid $orange1;
+                padding-right: 21px;
+                width: 156px;
+              }
+              &.callout2 {
+                border-right: 2px solid $orange1;
+                padding-right: 26px;
+                padding-left: 24px;
+                width: 156px;
+              }
+              &.callout3 {
+                padding-left: 17px;
+                width: 160px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
