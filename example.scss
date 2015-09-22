@@ -130,6 +130,9 @@
                   background-position: -50px -175px;
                 }
               }
+              a {
+              	color: blue;
+              }
             }
             .test3 {
               .test3-content {
@@ -138,14 +141,16 @@
                 &.graph-left {
                   border-right: 2px solid $orange1;
                   margin-bottom: 61px;
+                  padding-left: 200px;
                   padding-right: 30px;
-                  padding-left: 151px;
                   positoin: relative;
+                  display: inline-block;
                   width: 215px;
                   &:before {
                     content: '';
                     display: block;
                     height: 110px;
+                    margin: 0;
                     left: 67px;
                     position: absolute;
                     top: 21px;
