@@ -8,7 +8,7 @@
           &:before {
             content: '';
             display: block;
-            height: 209px;
+            height: 210px;
             left: 434px;
             position: absolute;
             top: 71px;
@@ -34,6 +34,9 @@
             font-size: 20px;
             font-weight: 100;
             margin-bottom: 5px;
+          }
+          h4 {
+          	color: red;
           }
           p {
             font-family: $myriadBold;
@@ -61,6 +64,7 @@
                 font-weight: 100;
               }
             }
+            
             a {
               background: #dd5a08; /* Old browsers */
               background: -moz-linear-gradient(left, #dd5a08 51%, #e27e00 100%); /* FF3.6+ */
@@ -90,7 +94,7 @@
               &:before {
                 content: '';
                 display: block;
-                height: 17px;
+                height: 20px;
                 left: 12px;
                 position: absolute;
                 top: 12px;
@@ -134,7 +138,7 @@
                 &.graph-left {
                   border-right: 2px solid $orange1;
                   margin-bottom: 61px;
-                  padding-right: 19px;
+                  padding-right: 30px;
                   padding-left: 151px;
                   positoin: relative;
                   width: 215px;
@@ -149,6 +153,11 @@
                   }
                 }
                 &.graph-right {
+                	&:before {
+                		content: "";
+                		height: 30px;
+                		width: 50px;
+                	}
                   padding-left: 16px;
                   width: 195px;
                 }
